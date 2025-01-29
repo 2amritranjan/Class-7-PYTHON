@@ -14,9 +14,17 @@ print(type(name))
 
 age = 20
 email = "xyz@example.com"
+year = "2000"
+userLoggedIn = True
+wrongPassword = False
 
 #Here we are trying to checkm datatype of age
 print(type(age))      #Here the answer will be int.
 
-#Here we are going to check datatype of email
-print(type(email))
+#Here we are going to check datatype of email and year
+print(type(email))  #Here datatype is str(" ")
+print(type(year))   #Here datatype is alse str(" ")
+
+#Here we are checking datatype of userLoggedIN
+print(type(userLoggedIn))   #This is a Boolean datatype
+print(type(wrongPassword))  #This is also a boolean datatype.
